@@ -4153,8 +4153,8 @@ x_{1}^{j}\\
 \cdot\\ 
 x_{n}^{j}\\ 
 \end{pmatrix}_{(n \times 1)} \textit{ with } j \in [1,m]\]</span></p>
-<div id="htmlwidget-8f1ac8efdc920df1636c" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-8f1ac8efdc920df1636c">{"x":{"filter":"none","caption":"<caption>For example: The following table contains data about 20 different types of food evaluated in 5 categories .<\/caption>","data":[["Oliveoil","Butter","Whiting","Beef","Chicken","Milk","Yogurt","Flamingcheese","Serra cheese","Rice","Bread","Bean","Sugar","Pasta","Lettuce","Onion","Spinach","Carrot","Potato","Cabbage"],[900,770,85,208,158,57,59,316,392,350,258,290,400,365,22,22,22,22,90,30],[0,0,19,18,20,3,3.2,26,26,7.5,7,20,0,10,1.8,0.9,2.6,0.6,2.5,2.9],[100,85,1,15,8.5,3,3.2,23.2,32,0.5,0.6,1.2,0,0.5,0.2,0.2,0.9,0,0,0.5],[0.1,13,25,12,18,126,125,800,800,10,24,170,15,20,70,31,104,104,9,234],[0.05,0.2,0.9,1.5,1.8,0.1,0.2,0.8,1.2,0.5,1.6,6.5,1,1,1.5,0.5,3.6,3.6,0.2,1.8]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Energy (kcal)<\/th>\n      <th>Protein (g)<\/th>\n      <th>Lipid (g)<\/th>\n      <th>Calcium (mg)<\/th>\n      <th>Iron (mg)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-625ca84f9994eac4a798" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-625ca84f9994eac4a798">{"x":{"filter":"none","caption":"<caption>For example: The following table contains data about 20 different types of food evaluated in 5 categories .<\/caption>","data":[["Oliveoil","Butter","Whiting","Beef","Chicken","Milk","Yogurt","Flamingcheese","Serra cheese","Rice","Bread","Bean","Sugar","Pasta","Lettuce","Onion","Spinach","Carrot","Potato","Cabbage"],[900,770,85,208,158,57,59,316,392,350,258,290,400,365,22,22,22,22,90,30],[0,0,19,18,20,3,3.2,26,26,7.5,7,20,0,10,1.8,0.9,2.6,0.6,2.5,2.9],[100,85,1,15,8.5,3,3.2,23.2,32,0.5,0.6,1.2,0,0.5,0.2,0.2,0.9,0,0,0.5],[0.1,13,25,12,18,126,125,800,800,10,24,170,15,20,70,31,104,104,9,234],[0.05,0.2,0.9,1.5,1.8,0.1,0.2,0.8,1.2,0.5,1.6,6.5,1,1,1.5,0.5,3.6,3.6,0.2,1.8]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Energy (kcal)<\/th>\n      <th>Protein (g)<\/th>\n      <th>Lipid (g)<\/th>\n      <th>Calcium (mg)<\/th>\n      <th>Iron (mg)<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"columnDefs":[{"className":"dt-right","targets":[1,2,3,4,5]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 <p>And</p>
 <p><span class="math display">\[\textit{food type}_{i}=\begin{pmatrix}
 \textit{Energy (kcal)}\\ 
@@ -4558,7 +4558,7 @@ s^{2}(x^{1})&amp;  s(x^{1},x^{2}) &amp; \cdot &amp; \cdot &amp; \cdot &amp; \cdo
  \cdot&amp;  &amp;  &amp;  &amp;  &amp; \cdot  &amp;  &amp;  &amp;  &amp; \cdot \\ 
  \cdot&amp;  &amp;  &amp;  &amp;  &amp;  &amp;  &amp; \cdot &amp;  &amp; \cdot \\ 
 0&amp; \cdot  &amp; \cdot &amp; \cdot  &amp; \cdot &amp; \cdot &amp; \cdot &amp; \cdot &amp; \cdot &amp; \frac{1}{s^{2}(x^{m})} 
-\end{pmatrix}_{(n,m)}\]</span></p>
+\end{pmatrix}_{(m,m)}\]</span></p>
 </div>
 <div id="dfn-xii-characterization-of-a-cluster-of-individuals" class="section level4">
 <h4>Dfn XII: Characterization of a cluster of individuals</h4>
@@ -4830,13 +4830,43 @@ s(x_{2},x_{1}) &amp; s^{2}(x_{2})
 <p>In general, given a <em>square matrix</em> <span class="math inline">\(A_{(n \times n)}\)</span> and its associated <em>eigenvalues</em> the <em>eigenvectors</em> <span class="math inline">\(v\)</span> associated to them are such that meet the following criteria:</p>
 <p><span class="math display">\[A_{(n \times n)}v_{(n \times 1)}=\lambda v_{(n \times 1)}\]</span> In the context of our example after solving 4.1, we get</p>
 <p><span class="math display">\[eigenvalues=\begin{pmatrix}
-.0490833989\\ 
-1.28402771
+1.28402771\\ 
+.0490833989
 \end{pmatrix}\]</span></p>
 <p>And after solving for 4.2, we get</p>
+<p><span class="math display">\[\textit{eigenvectors (not unit)}=\begin{pmatrix}
+0.922053 &amp; -1.08454\\ 
+1 &amp; 1
+\end{pmatrix}\]</span></p>
+<p>For <strong>PCA</strong> we need <strong>unit vectors</strong> that are the vectors divided by its <em>euclidean magnitude</em>. So in our case:</p>
+<p><span class="math display">\[\textit{eigenvectors (not unit)}_{1}=\begin{pmatrix}
+0.922053 \\ 
+1
+\end{pmatrix}\]</span> And its <em>euclidean magnitude</em>: <span class="math inline">\(\sqrt{{0.922053}^{2}+{1}^{2}}=1.360214\)</span>. And so the first unit eigenvector associated with the first eigenvalue <span class="math inline">\(1.28402771\)</span>, is constructed as follows:</p>
+<p><span class="math display">\[\frac{1}{1.360214} \times \textit{eigenvectors (not unit)}_{1}=\frac{1}{1.360214} \times \begin{pmatrix}
+0.922053 \\ 
+1
+\end{pmatrix}=\begin{pmatrix}
+0.6778735 \\ 
+0.7351784
+\end{pmatrix}\]</span></p>
+<p>For the second not unit eigenvecotr we follow exactly the same procedure.</p>
+<p><span class="math display">\[\textit{eigenvectors (not unit)}_{2}=\begin{pmatrix}
+ -1.08454 \\ 
+1
+\end{pmatrix}\]</span> And its <em>euclidean magnitude</em>: <span class="math inline">\(\sqrt{{ -1.08454}^{2}+{1}^{2}}=1.475204\)</span>.</p>
+<p>And so the second unit eigenvector associated with the first eigenvalue <span class="math inline">\(.0490833989\)</span>, is constructed as follows:</p>
+<p><span class="math display">\[\frac{1}{1.475204} \times \textit{eigenvectors (not unit)}_{2}=\frac{1}{1.475204} \times \begin{pmatrix}
+-1.08454 \\ 
+1
+\end{pmatrix}=\begin{pmatrix}
+-0.7351797 \\ 
+0.6778723
+\end{pmatrix}\]</span></p>
+<p>Summarizing the results we have:</p>
 <p><span class="math display">\[eigenvectors=\begin{pmatrix}
--.73517856 &amp; -.677873399\\ 
-.677873399 &amp; -.73517856
+0.6778735 &amp; -0.7351797\\ 
+0.7351784 &amp; 0.6778723
 \end{pmatrix}\]</span></p>
 </div>
 </div>
@@ -4849,8 +4879,8 @@ s(x_{2},x_{1}) &amp; s^{2}(x_{2})
 <p>A <em>feature vector</em> is a matrix of vectors, such that each of the vector forming the matrix is the eigenvector associated to the eigenvalues from the covariance matrix of the original dataset. <span class="math display">\[FeatureVector_{(p \times p)}=(\vec{eig_{1}},\vec{eig_{2}},\vec{eig_{3}},...,\vec{eig_{p}})\]</span></p>
 <p>Given our example dataset, we have the following <em>featurevector</em></p>
 <p><span class="math display">\[\begin{pmatrix}
--.677873399 &amp; -.73517856\\ 
--.73517856 &amp; .677873399
+-.73517856 &amp; .677873399\\ 
+-.677873399 &amp; -.73517856
 \end{pmatrix}\]</span></p>
 </div>
 </div>
